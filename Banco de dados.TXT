@@ -1,0 +1,26 @@
+# Banco de dados:   :chart:
+
+Banco de dados é um conjunto de arquivos lógicos sob um arquivo fixo.
+ Os mais comuns são: 
+
+ - Banco de dados relacional: é um mecanismo de armazenagem que permite a persistência de dados e opcionalmente implementar funcionalidades.
+
+- Banco de dados orientados a objetos: cada informação é armazenada na forma de objetos, ou seja, utiliza a estrutura de dados denominada orientação a objetos. 
+
+ - Banco de dados distribuídos: é um banco de dados no qual nem todos os dispositivos de armazenamento estão conectados a um processador comum. 
+   Pode ser armazenado em vários computadores, localizados no mesmo local fisico, ou podem ser dispersos por uma rede de computadores interconectados. 
+
+ - Banco de dados mistos: banco de dados relacional com características voltadas para orientação a objeto.
+
+O Sistema Gerenciador de Banco de Dados (SGBD) é um sistema que mantém integrada uma coleção de arquivos, organizados de modo a evitar redundância de informações e permitir acesso rápido para um ou mais usuários. O SGBD mais comum é o Sistema Gerenciador de Banco de Dados Relacional (SGBDR). Este é um conjunto de tabelas de dados selecionados conforme o interesse de uma organização, com uma Inter-relação coerente entre essas tabelas.
+
+Dicionário de Dados: 
+Todos os domínios de dados, as relações entre dados, descrição dos dados é chamado de banco de dados.
+Cada banco de dados tem sua estrutura, portanto cada banco tem seu dicionário.
+
+Tabelas: Em um banco relacional não há dependência de arquivos. Portanto, um grupo de dados distinto deve sempre estar relacionado a outro grupo. Devido a existência desse ponto em comum, como dois eixos que se cruzam, damos o nome de TABELA.
+
+Relação(Tuplas): Da mesma forma que as tabelas, os conteúdos do grupo de dados se vistos como colunas que tendem a cruzar com linhas de outras tabelas, a essa linha ou conjuntos dessas chamamos de RELAÇÃO(TUPLAS).
+
+Índices: Aos endereços das relações dentro de uma tabela, damos o nome de INDICES. Os índices são formados por chaves(dados que identificam a relação) que nos permitem localizar rapidamente os dados ou informações desejadas. Os índices são classificados por prioridades, sendo o principal deles o "Índice Primário".
+

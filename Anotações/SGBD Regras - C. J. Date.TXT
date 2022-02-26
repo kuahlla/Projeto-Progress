@@ -1,0 +1,13 @@
+Segundo C.J.Date, um SGBDR, deve suportar as seguintes regras:
+
+01) Regra Zero:
+  Deve suportar inclusão, atualização e eliminação no banco de dados em nível relacional (registro simultâneos). A relação(tabela) pode ter tanto zero linha quanto uma linha e ainda ser uma relação válida. 
+
+02) Regra da Informação:
+  Toda informação em um banco de dados relacional é apresentada explicitamente em nível lógico e exatamente de uma maneira - por valores em tabelas.
+
+03) Regra de Acesso Garantido:
+  Todo e cada dado (valor atômico) em banco de dados relacional tem a garantia de ser logicamente acessível recorrendo-se a uma combinação de nome da tabela, valor da chave primária e nome da coluna(campo). O conceito de chave primária é parte essencial da regra.
+
+04)  Tratamento sistemático de valores zeros:
+  Os valores zeros (diferente da série de caracteres em branco e de números diferentes de zero) são suportados em um SGBD completamente relacional para representar a informação zero, isto é, a informação inaplicável de modo sistemático(nulo), independente do tipo de dados.
